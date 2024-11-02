@@ -75,8 +75,7 @@ h1 {
 	text-align: center;
 	font-family: "Bilbo", serif;
 	font-size: 2.5rem;
-	color: rgb(18, 137, 98);
-
+	color: #1a754d;
 }
 
 h2,
@@ -195,9 +194,45 @@ a:focus {
 	width: 85%;
 }
 
+@media (min-width: 50em) {
+	.site-wrapper p {
 
+		font-size: 1.25rem;
+		max-width: 55%;
+	}
+}
 
 /* History Page */
+
+
+
+.float-left {
+	object-fit: cover;
+	min-height: 8rem;
+	max-height: 38rem;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	padding: 0;
+}
+
+
+
+
+
+@media(min-width:31.25em) {
+
+	.float-left {
+		float: left;
+		margin: 0 1rem 1rem 0;
+		max-width: 40%;
+	}
+
+
+
+
+}
+
 
 /* Culture Page */
 
