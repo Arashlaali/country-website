@@ -169,6 +169,15 @@ a:focus {
 
 }
 
+
+
+/* Main
+--------------------------------------------- */
+/* Specific styles for each page go here */
+
+/* Home Page */
+
+
 .iran-landscape {
 	object-fit: cover;
 	min-height: 8rem;
@@ -177,14 +186,6 @@ a:focus {
 	padding: 0;
 
 }
-
-
-
-/* Main
---------------------------------------------- */
-/* Specific styles for each page go here */
-
-/* Home Page */
 
 .site-wrapper {
 
@@ -266,8 +267,8 @@ h2 {
 	}
 
 	.container img {
-		width: 900px;
-		height: 600px;
+		width: 800px;
+		height: 500px;
 		max-height: 70%;
 		margin-right: 1rem;
 	}
@@ -295,7 +296,7 @@ h2 {
 	}
 
 	.womeniran img {
-		width: 700px;
+		width: 800px;
 		height: 500px;
 		max-height: 70%;
 		margin-right: 5rem;
@@ -319,6 +320,29 @@ h2 {
 
 /* Culture Page */
 
+.culture-header-img {
+	/* object-fit: cover; */
+	/* min-height: 8rem;
+	max-height: 28rem; */
+	width: "500";
+	height: "500";
+	width: 100%;
+	padding: 0;
+
+}
+
+
+@media(min-width:31.25em) {
+
+	.culture-header-img {
+		max-height: 500px;
+		width: 100%;
+		padding: 0;
+	}
+
+}
+
+
 /* Credits Page */
 
 
@@ -331,7 +355,7 @@ h2 {
 	text-align: center;
 	padding: 1rem;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 37.5rem;
 }
 
 
