@@ -331,6 +331,15 @@ h2 {
 
 /* Culture Page */
 
+.culture-headliner {
+	display: block;
+	max-width: 60rem;
+	margin: auto;
+	border-bottom: 2px solid black;
+
+}
+
+
 .culture-articles {
 
 	align-items: center;
@@ -367,16 +376,11 @@ h3 {
 
 }
 
-.kabab {
-	margin: auto;
-
-
-}
 
 blockquote {
 	background-color: #1b448c2c;
 	max-width: 25rem;
-	padding: 1rem 5rem;
+	padding: 1rem 4rem;
 	margin: auto;
 
 }
@@ -387,6 +391,13 @@ figcaption {
 	font-size: 85%;
 }
 
+
+.quote {
+	max-width: 60%;
+	width: 50%;
+
+
+}
 
 @media screen and (min-width:40em) {
 
@@ -400,12 +411,12 @@ figcaption {
 
 		display: grid;
 		grid-template-columns: 1fr 20rem 1fr;
-		grid-template-rows: repeat(2, 35rem);
+		grid-template-rows: repeat(3, 30rem);
 		justify-content: center;
 		justify-items: center;
-		gap: .5rem;
+		gap: 1rem;
 		max-width: 90rem;
-		margin: 0 auto;
+		margin: 5rem auto;
 	}
 
 }
