@@ -334,36 +334,78 @@ h2 {
 .culture-articles {
 
 	align-items: center;
+
+}
+
+.culture-articles div {
+
+	padding: 1rem;
+	margin: 2rem 1rem;
 }
 
 .culture-articles img {
 
-	max-width: 18.75rem;
 	width: 18.75rem;
 	margin-bottom: 0;
+	border-radius: 1rem;
+
+
+}
+
+h3 {
+	margin-top: 0;
+	text-align: center;
 
 
 }
 
 .culture-articles p {
 
-	margin-top: 0;
+	margin: 0;
+	font-size: 90%;
+	text-align: center;
 
 }
 
-@media(min-width:31.25em) {
+.kabab {
+	margin: auto;
+
+
+}
+
+blockquote {
+	background-color: #1b448c2c;
+	max-width: 25rem;
+	padding: 1rem 5rem;
+	margin: auto;
+
+}
+
+figcaption {
+	margin-top: 0;
+	text-align: right;
+	font-size: 85%;
+}
+
+
+@media screen and (min-width:40em) {
 
 	.culture-header-img {
 		max-height: 500px;
-		width: 100%18;
+		width: 100%;
 		padding: 0;
 	}
 
 	.culture-articles {
 
 		display: grid;
-		grid-template-columns: 1fr 31.25rem 1fr;
-
+		grid-template-columns: 1fr 20rem 1fr;
+		grid-template-rows: repeat(2, 35rem);
+		justify-content: center;
+		justify-items: center;
+		gap: .5rem;
+		max-width: 90rem;
+		margin: 0 auto;
 	}
 
 }
