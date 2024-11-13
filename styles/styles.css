@@ -340,31 +340,24 @@ h2 {
 }
 
 
-.culture-articles {
-
-	align-items: center;
-
-}
-
 .culture-articles div {
 
 	padding: 1rem;
-	margin: 2rem 1rem;
+	/* margin: 2rem 1rem; */
 }
 
 .culture-articles img {
 
-	width: 18.75rem;
-	margin-bottom: 0;
+	display: block;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
 	border-radius: 1rem;
-
-
 }
 
 h3 {
 	margin-top: 0;
 	text-align: center;
-
 
 }
 
@@ -373,6 +366,7 @@ h3 {
 	margin: 0;
 	font-size: 90%;
 	text-align: center;
+	margin-bottom: 4rem;
 
 }
 
@@ -418,6 +412,8 @@ figcaption {
 		max-width: 90rem;
 		margin: 5rem auto;
 	}
+
+
 
 	.culture-articles div:first-of-type {
 
