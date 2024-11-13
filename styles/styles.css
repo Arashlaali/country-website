@@ -399,7 +399,7 @@ figcaption {
 
 }
 
-@media screen and (min-width:40em) {
+@media screen and (min-width:50em) {
 
 	.culture-header-img {
 		max-height: 500px;
@@ -418,6 +418,15 @@ figcaption {
 		max-width: 90rem;
 		margin: 5rem auto;
 	}
+
+	.culture-articles div:first-of-type {
+
+		grid-column: 1;
+		grid-row: 1 / span 2;
+
+	}
+
+}
 
 }
 
