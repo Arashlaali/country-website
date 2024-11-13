@@ -380,7 +380,7 @@ h3 {
 blockquote {
 	background-color: #1b448c2c;
 	max-width: 25rem;
-	padding: 1rem 4rem;
+	padding: 1rem 3rem;
 	margin: auto;
 
 }
@@ -393,13 +393,13 @@ figcaption {
 
 
 .quote {
-	max-width: 60%;
-	width: 50%;
+	max-width: 70%;
+	width: 70%;
 
 
 }
 
-@media screen and (min-width:40em) {
+@media screen and (min-width:50em) {
 
 	.culture-header-img {
 		max-height: 500px;
@@ -411,7 +411,7 @@ figcaption {
 
 		display: grid;
 		grid-template-columns: 1fr 20rem 1fr;
-		grid-template-rows: repeat(3, 30rem);
+		grid-template-rows: 1fr 20rem auto;
 		justify-content: center;
 		justify-items: center;
 		gap: 1rem;
@@ -419,7 +419,51 @@ figcaption {
 		margin: 5rem auto;
 	}
 
+	.culture-articles div:first-of-type {
+
+		grid-column: 1;
+		grid-row: 2 / span 2;
+
+	}
+
+	.culture-articles .tehran {
+
+		grid-column: 2;
+		grid-row: 1 / span 2;
+
+	}
+
+	blockquote {
+
+		grid-column: 2;
+		grid-row: 2 / span 2;
+	}
+
+	.culture-articles .dizi {
+
+		grid-column: 3;
+
+	}
+
+	.culture-articles .haftsin {
+
+		grid-column: 1;
+		grid-row: 1;
+
+	}
+
+	.culture-articles .halim {
+
+		grid-column: 3;
+		grid-row: 2 / span 2;
+
+	}
+
+
+
 }
+
+
 
 
 /* Credits Page */
