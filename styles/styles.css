@@ -116,15 +116,65 @@ p {
 
 /* Elements
 --------------------------------------------- */
-ul {}
+/* contact form  */
+form {
+	text-align: center;
+	display: inline-block;
+	padding: 1rem;
+	border: 1px solid #282828;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	width: 70%;
 
-ol {}
+}
 
-dl {}
+label {
+	display: inline-block;
+	min-width: 90px;
+	text-align: center;
 
-figure {}
+}
 
-table {}
+input,
+textarea {
+	font-family: 'PT Serif', sans-serif;
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid #282828
+}
+
+textarea {
+	vertical-align: top;
+	height: 5em;
+}
+
+
+/* table  */
+
+table {
+	width: 60% vw;
+	border-collapse: collapse;
+}
+
+tr,
+th,
+td,
+caption {
+	border: 1px solid #282828;
+	font-family: 'PT Serif', sans-serif;
+	padding: .5rem;
+}
+
+th {
+	background: #95ffd1;
+}
+
+.table-container {
+
+	margin: auto;
+}
+
+
 
 /* Links
 --------------------------------------------- */
@@ -144,6 +194,7 @@ a:active {
 a:focus {
 	outline: 1px dotted;
 }
+
 
 
 
@@ -352,19 +403,17 @@ h2 {
 
 	display: block;
 	width: 90%;
-	height: 25rem;
+	height: 21.85rem;
 	margin: 0 auto;
 	border-radius: 1rem;
 }
 
 .culture-articles video {
 	max-width: 17rem;
-	max-height: 25rem;
+	max-height: 28rem;
 	border-radius: 1rem;
 
 }
-
-
 
 /* .tehran {
 	position: relative;
@@ -372,10 +421,10 @@ h2 {
 }
 
 .tehran-info {
+
 	position: absolute;
 	bottom: 20rem;
 } */
-
 
 h3 {
 	margin-top: 0;
@@ -487,7 +536,38 @@ figcaption {
 
 /* Credits Page */
 
+.button {
 
+	padding-left: 90px;
+}
+
+/* .form-container {
+
+	display: grid;
+	place-items: center;
+	min-height: 60vh;
+} */
+
+.form-container {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+
+@media screen and (min-width:50em) {
+
+	.form-container {
+		max-height: 31.25rem;
+		width: 40%;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+
+}
 
 /* Footer
 --------------------------------------------- */
@@ -499,7 +579,3 @@ figcaption {
 	position: relative;
 	margin-top: 37.5rem;
 }
-
-
-
-@media (min-width: 50em) {}
