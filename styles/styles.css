@@ -119,18 +119,30 @@ p {
 
 figure {}
 
-table,
+table {
+	width: 60% vw;
+	border-collapse: collapse;
+}
+
 tr,
 th,
 td,
 caption {
-
-	border: 1px solid #eee;
+	border: 1px solid #282828;
 	font-family: 'PT Serif', sans-serif;
-	border-collapse: collapse;
 	padding: .5rem;
-
 }
+
+th {
+	background: #95ffd1;
+}
+
+.table-container {
+
+	margin: auto;
+}
+
+
 
 /* Links
 --------------------------------------------- */
