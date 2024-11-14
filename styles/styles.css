@@ -352,19 +352,17 @@ h2 {
 
 	display: block;
 	width: 90%;
-	height: 25rem;
+	height: 21.85rem;
 	margin: 0 auto;
 	border-radius: 1rem;
 }
 
 .culture-articles video {
 	max-width: 17rem;
-	max-height: 25rem;
+	max-height: 28rem;
 	border-radius: 1rem;
 
 }
-
-
 
 /* .tehran {
 	position: relative;
@@ -372,10 +370,10 @@ h2 {
 }
 
 .tehran-info {
+
 	position: absolute;
 	bottom: 20rem;
 } */
-
 
 h3 {
 	margin-top: 0;
