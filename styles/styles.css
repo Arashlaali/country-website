@@ -343,7 +343,9 @@ h2 {
 .culture-articles div {
 
 	padding: 1rem;
-	/* margin: 2rem 1rem; */
+	margin: 0.5rem;
+	width: 18.75rem;
+
 }
 
 .culture-articles img {
@@ -354,6 +356,26 @@ h2 {
 	margin: 0 auto;
 	border-radius: 1rem;
 }
+
+.culture-articles video {
+	display: block;
+	max-width: 18.75rem;
+	max-height: 25rem;
+	border-radius: 1rem;
+
+}
+
+/* .tehran {
+	position: relative;
+
+}
+
+.tehran-info {
+	position: absolute;
+	bottom: 20rem;
+} */
+
+
 
 h3 {
 	margin-top: 0;
@@ -366,10 +388,16 @@ h3 {
 	margin: 0;
 	font-size: 90%;
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 
 }
 
+
+.tehran {
+	padding: 1rem;
+	margin: .5rem;
+	width: 17rem;
+}
 
 blockquote {
 	background-color: #1b448c2c;
