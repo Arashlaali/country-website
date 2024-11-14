@@ -116,15 +116,21 @@ p {
 
 /* Elements
 --------------------------------------------- */
-ul {}
-
-ol {}
-
-dl {}
 
 figure {}
 
-table {}
+table,
+tr,
+th,
+td,
+caption {
+
+	border: 1px solid #eee;
+	font-family: 'PT Serif', sans-serif;
+	border-collapse: collapse;
+	padding: .5rem;
+
+}
 
 /* Links
 --------------------------------------------- */
@@ -146,6 +152,7 @@ a:focus {
 }
 
 
+}
 
 
 /*--------------------------------------------------------------
