@@ -152,7 +152,7 @@ textarea {
 /* table  */
 
 table {
-	width: 60% vw;
+	width: 60%;
 	border-collapse: collapse;
 }
 
@@ -239,21 +239,22 @@ a:focus {
 
 /* Home Page */
 
-
-div header img {
-	display: block;
-	max-width: 100%;
+.banner img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 30rem;
 	width: 100%;
-	object-fit: fill;
-	min-height: 8rem;
-	max-height: 28rem;
+	background-size: cover;
+	padding: 0;
+	overflow: hidden;
 
 }
 
 .site-wrapper {
 
 	position: relative;
-	top: 0;
+	top: 30rem;
 	margin-bottom: 5rem;
 
 }
@@ -433,12 +434,6 @@ h3 {
 
 }
 
-/* 
-video {
-	display: block;
-	margin: 0 auto;
-	width: 17rem;
-} */
 
 .tehran {
 	display: flex;
@@ -446,7 +441,6 @@ video {
 	align-items: center;
 	margin: 0;
 	flex-wrap: nowrap;
-	padding: 0;
 }
 
 blockquote {
